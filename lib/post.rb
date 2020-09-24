@@ -11,7 +11,7 @@ class Post
   end
   
   def author_name
-    if self.author.name = " "
+    if selauthor.name = " "
      return nil 
    else
      self.author.name
