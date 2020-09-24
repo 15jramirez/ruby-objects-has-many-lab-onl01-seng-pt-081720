@@ -12,6 +12,7 @@ class Author
   def posts 
     Post.all.select { |title| post.author == self}
   end
+  
 end
 
 
